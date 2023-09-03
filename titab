@@ -1,0 +1,12 @@
+import random
+print("be bazi dehghani khosh amadid")
+y = 0
+titab = random.randrange(1,999)
+print("lotfan name khod ra vared konid")
+name = input()
+x = ["dehghani","ardestani"]
+if name != x[0] and name != x[1]:
+    print(f'{titab} titab')
+if name == x[0] or name == x[1]:
+    print("ghear ghabel shomaresh")
+    
